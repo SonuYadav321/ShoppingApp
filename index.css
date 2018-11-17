@@ -1,286 +1,76 @@
 body{
   margin:0;
-  padding:0;]
-  font-family:'Droid',sans-serif;
+  padding:0;
+  font-family:'Heebo',sans-serif;
 }
-#part1{
-  display:flex;
-  flex-direction: row;
-  margin-left:160px;
-  margin-top:120px!important;
-  font-family:'Droid',sans-serif;
-  position: relative;
+.sidebar{
+  width:250px;
+  height:100vh;
+  background: whitesmoke;
+  padding:15px;
 }
-#part1 .content{
-  margin-right:160px;
+.topcontent{
+display:flex;
+flex-direction:row;  
 }
-#part1 h1{
-  font-size:37px;
-  font-weight: 150;
-  font-family:'Droid',sans-serif;
-  margin-bottom: 35px;
+.calli{
+  font-family:'Calligraffitti',sans-serif;
+  font-size: 20px;
+  padding-left:15px;
+  padding-top:3px;
+  font-weight: bold;
 }
-#part1 p{
-  letter-spacing: 0.38px;
-  font-size: 25px;
-  font-weight: 50;
-  color: #7f7f81;
-  margin-bottom: 50px;
+.secondcontent{
+  text-align:center;
+  margin-top:30px;
 }
-#part1 .screen{
-  position: absolute;
-  width:410.73px;
-  height:auto;
-  background-image:url("https://d3of5mthwxl62f.cloudfront.net/img/macbook.png");
-  left:556px;
-  top:17px;
+.secondcontent img{
+  border-radius: 50%;
+  border:1px solid blue;
+  padding:5px;
 }
-#part1 button{
-  height: 52px;
-  width: 160px;
-  border-radius:100px;
-  border:none;
-  margin-bottom:30px;
+.secondcontent p{
+  margin:0px;
+  padding:0px;
+  font-family:'Calligraffitti',sans-serif;
+  font-size: 20px;
+  font-weight:bold;
 }
-#part1 .btn1{
-  background:linear-gradient(-180deg,#fd7054 0,#ff3b6a 100%);
-  margin-right:10px;
-  color:white;
-  font-size:16px;
+.tags{
+  font-family:'Calligraffitti',sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+  margin-top:40px;
 }
-#part1 .btn1:hover{
-  box-shadow: 0 7px 29px 0 rgba(254,89,105,.3);
-  cursor: pointer;
+.tags ul li{
+  list-style:none;
+  padding:15px;
 }
-#part1 svg{
-  margin-right:12px;
-  color:gray;
+.colorchange{
+  animation: 2s sonu infinite;
 }
-#part1 .btn2{
-  background:whitesmoke;
+@keyframes sonu{
+  0%{color:red;}
+  25%{color:purple;}
+  50%{color:orangered;}
+  75%{color:white;}
+  100%{color:palegreen;}
 }
-#part1 .btn2:hover{
-  box-shadow: 0 0 2px 0 rgba(44,47,51,.15), 0 3px 16px 0 #e9e9ea, inset 0 -4px 8px 0 rgba(0,0,0,.03);
-  cursor:pointer;
+.autochange{
+  animation: 3s akshay infinite;
 }
-#part1 .sall{
-  letter-spacing: 0.5px;
-  font-size:15px;
+@keyframes akshay{
+  0%{color:rgb(234, 255, 42);}
+  25%{color:purple;}
+  50%{color:rgb(22, 226, 233);}
+  100%{color:rgb(0, 253, 0);}
 }
-#container{
-  margin-top:120px;
-  background-color:whitesmoke;
+.semicolor{
+  animation:2s ego infinite;
 }
-.section1{
-  display:flex;
-  flex-direction: row;
-  padding-top:100px;
-  padding-left:120px;
-  padding-right:120px;
-  font-family:'Droid',sans-serif;
+@keyframes ego{
+  0%{background-color:rgb(234, 255, 42);}
+  25%{background-color:purple;}
+  50%{background-color:rgb(22, 226, 233);}
+  100%{background-color:rgb(253, 17, 0);}
 }
-.section1 h3{
-  font-size:20px;
-  font-weight: lighter;
-  letter-spacing: 0.4px;
-}
-.section2 h3{
-  font-size:20px;
-  font-weight: lighter;
-  letter-spacing: 0.4px;
-}
-.section1 p{
-  font-size:18px;
-  color:grey;
-  font-weight: lighter;
-  letter-spacing: 0.4px;
-}
-.section2 p{
-  font-size:18px;
-  color:grey;
-  font-weight: lighter;
-  letter-spacing: 0.4px;
-}
-.section2{
-  display:flex;
-  flex-direction: row;
-  padding-top:70px;
-  padding-left:120px;
-  padding-right:120px;
-  font-family:'Droid',sans-serif;
-}
-.section1 svg{
-  padding-top: 10px;
-  padding-right: 20px;
-}
-.section2 svg{
-  padding-top: 10px;
-  padding-right: 20px;
-}
-.section2 .content{
-  flex:1;
-}
-.section1 .content{
-  flex:1;
-}
-#part3{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  padding-top:70px;
-  font-family:'Droid',sans-serif;
-  }
-  #part3 h1{
-    font-weight: lighter;
-  }
-  #part4{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 30px;
-  }
-  #part4 button{
-  font-size:16px;
-  height:52px;
-  width: 183px;
-  border:none;
-  background:linear-gradient(-180deg,#fd7054 0,#ff3b6a 100%);
-  border-radius:100px;
-  color:white;
-  }
-  #part4 button:hover{
-  cursor:pointer;
-  box-shadow: 0 7px 29px 0 rgba(254,89,105,.3);
-  }
-  #part5 .half{
-    position: absolut;
-  max-height: 100%;
-  }
-#part5{
-  display:flex;
-  flex-direction: row;
-  margin-top: 125px;
-  letter-spacing: .49px;
-  margin-bottom: 170px;
-  position: relative;
-  }
-  #part5 button{
-  height: 47px;
-  width:155.47px;
-  background-color:whitesmoke;
-  border:none;
-  border-radius:100px;
-  color:#646467;
-  }
-  #part5 .content{
-    margin-top:160px;
-    word-spacing: 5px;
-    letter-spacing: 3px;
-    margin-left: 150px;
-  }
-  #part5 button:hover{
-  cursor: pointer;
-  box-shadow: 0 0 2px 0 rgba(44,47,51,.15), 0 3px 16px 0 #e9e9ea, inset 0 -4px 8px 0 rgba(0,0,0,.03);
-  }
-  #part5 h1{
-    font-weight: lighter;
-    letter-spacing: 0.4px;
-    font-family:'Droid',sans-serif;
-  }
-  #part5 p{
-    font-weight: lighter;
-    letter-spacing: 0.4px;
-    font-family:'Droid',sans-serif;
-    color: #646467;
-  }
-  #part5 svg{
-    padding-right:10px;
-  }
-  #part5 button{
-    font-size:14px;
-  }
-  #part5 .half{
-    margin-left:-400px;
-  }
-  .perfect{
-  width:670px;
-  height: auto;
-  top:40px;
-  left:-260px;
-  right:120px;
-  position: absolute;
-  }
-  #middle6{
-    display:flex;
-    margin:30px auto 30px auto;
-    justify-content: center;
-    align-items: center;
-    font-size:16px;
-    }
-    #middle6 h1{
-      font-weight: 300;
-      font-family:'Droid',sans-serif;
-      letter-spacing: 0.3px;
-    }
-    #graph{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    }
-    #graph button{
-    height:66px;
-    width:219.55px;
-    font-size:20px;
-    background-image: linear-gradient(-180deg,#fd7054 0,#ff3b6a 100%);
-    border-radius: 100px;
-    margin-top:5px;
-    border: none;
-    }
-    #graph button:hover{
-    margin-top:0px;
-    box-shadow: 0 7px 29px 0 rgba(254,89,105,.3);
-    cursor: pointer;
-    }
-    .down{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-size:20px;
-    color:grey;
-    }
-    .down1{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-size:20px;
-    color:#ff3b6a;
-    }
-    .last{
-      display:flex;
-      flex-direction: row;
-      font-size:18px;
-      margin-top:120px;
-    }
-    .last p{
-    margin-left:200px;
-    color:grey;
-    margin-bottom: 60px;
-    }
-    .last p span{
-    color:#ff3b6a;
-    }
-    .take{
-    margin-left:550px;
-    list-style: none;
-    }
-    .take ul {
-    float:right;
-    }
-    .take ul li{
-    list-style: none;
-    position: relative;
-    float:left;
-    margin-right:15px;
-    color:#ff3b6a;
-    }
